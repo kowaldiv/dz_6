@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/tasks/event-loop/blocking-server.js"
+    "start-1.3": "node src/tasks/event-loop/blocking-server.js",
+    "start-1.4": "node src/tasks/event-loop/worker-server.js"
   },
   "keywords": [],
   "author": "",
