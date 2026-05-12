@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start-1.3": "node src/tasks/event-loop/blocking-server.js",
-    "start-1.4": "node src/tasks/event-loop/worker-server.js"
+    "start-1.4": "node src/tasks/event-loop/worker-server.js",
+    "start-3.1": "node src/tasks/fastify-basic/server.js"
   },
   "keywords": [],
   "author": "",
