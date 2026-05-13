@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-1.3": "node src/tasks/event-loop/blocking-server.js",
+    "start-1.4": "node src/tasks/event-loop/worker-server.js",
+    "start": "node src/tasks/fastify-basic/server.js",
+    "start:crud": "node src/tasks/fastify-crud/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "fastify": "^5.8.5"
   }
